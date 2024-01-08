@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+span {
+  color: #ffd569;
+}
+
+.img {
+  width: 70%;
+  margin: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: none;
+  height: 50px;
+  width: 100px;
+  border-radius: 8px;
+  margin: 20px;
+  font-weight: 300;
+}
+
+.img-card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 20px;
+  }
+  .img {
+    width: 50%;
+    margin: 10px;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 90%;
+    height: 90%;
+  }
+}
